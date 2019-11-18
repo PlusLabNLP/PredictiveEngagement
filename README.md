@@ -10,6 +10,10 @@ For any comments/issues/ideas pleaae feel free to contact [me](mailto:sarikgha@u
 
 ## Steps to setup
 
+### Install Requirements
+Use any virtualenv manager to install all the packages mentioned in the requirements.txt file.
+
+
 ### Preprocess dataset
 Run the preprocess.py in the pytorch_src directory. This script preprocess ConvAI dataset (train.json file taken from http://convai.io/2017/data/) to extract the dialogs with at least one turn (query and reply utterances). 
 The outputs are:
