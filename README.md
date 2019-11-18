@@ -21,7 +21,7 @@ The outputs are:
 
 ### Utterance embeddings
 In order to train the engagement classifier or test the trained model, you need to have a set of embeddings files for queries and replies, where each utterance embedding is the mean or max pooling of its words embeddings. In this paper, we have used the Bert contextualized embeddings.
-Run create_utt_embed.py with queries and replies files as input to generate their offline by using BertClient and BertServer 
+Run create_utt_embed.py with queries and replies files as input to create their embeddings by using BertClient and BertServer 
 (cite: @misc{xiao2018bertservice,title={bert-as-service},author={Xiao, Han},howpublished={\url{https://github.com/hanxiao/bert-as-service}},ear={2018}})
 
 
