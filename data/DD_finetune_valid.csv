@@ -1,0 +1,271 @@
+id,query,reply,label,reply_len,reply_num_diverse_words
+0,"He'll be a teenager before you know it ! Teenagers are often rebellious ! When do you think it is a good age to have a child ?
+","I had mine when I was 24 . That's a little young . I'd suggest you wait until you are in your late twenties , or even in your early thirties if you have a good career .
+",1,38,30
+1,"Cruise control ? I don't like that .
+","Why not , sir ?
+",1,5,5
+2,"OK . Thank you .
+","You are welcome .
+",0,4,4
+3,"Great ! It sounds like you might be a good fit . As you know , we ' re one of the largest brokerage houses in the world . Our daily work is quite hectic , and we , re looking for an assistant who can keep us organized ... help keep the engines running smoothly , so to speak . Our hours are long , but the overtime pay is good ... sort of makes up for the long hours .
+","What would a typical day be like for me here ?
+",1,11,11
+4,"Can't you see the notes here ?
+","I'm sorry . I can't . What does the note say .
+",1,12,10
+5,"Mmm , smells good . Sure better than my instant . But please don't tell me this is another coffee-themed pitch . I thought I told you ...
+","... yes , but this one has an all-new buzz .
+",1,11,11
+6,"Do you have any stomachache ?
+","I guess so . It comes and goes .
+",1,9,8
+7,"that sounds good .
+","soup always makes me feel better when I'm sick . I hope it makes you feel better , too .
+",1,20,16
+8,"I'm afraid this course is for four persons .
+","Well , can't you make it for two only ?
+",1,10,10
+9,"Certainly . Would you like your coffee with your dinner or later ?
+","With my dinner , please . And can you take my order for dessert later ?
+",1,16,15
+10,"Anything else I can do for you , sir ?
+","No , thanks .
+",0,4,4
+11,"Where shall we go on vacation this summer ?
+","Well , that depends . Tell me where you want to go ?
+",1,13,13
+12,"I see .
+","I really appreciate the offer , but I must decline it .
+",1,12,11
+13,"Thanks . Then may I suggest that you put down in the contract ' shipment on September 15 or earlier ' ?
+","Let me see . Now the workers will have to work on three shifts for it . Well , we can manage it on 20th September . That's the best we can do .
+",1,34,26
+14,"I ' d prefer to see him asap . If I have to wait for another 30 mins , I think I will faint from this unbearable pain in my stomach and ...
+","Oh , why didn't you say it's an emergency ? Here , fill out this form and take a seat . I'll send you in next.You don't have insurance ?
+",1,30,27
+15,"Are we supposed to get off right here ?
+","I think so ; hurry up and get off .
+",1,10,10
+16,"It's been a long time , Mrs , Lee .
+","Yes . I went to Hawaii on a vacation with my husband .
+",1,13,12
+17,"I have a cell phone in my car . Now it's probably on the floor on the passenger side.Why don't you get it for me , and then I can call the police ?
+","Alright .
+",0,2,2
+18,"The fridge and freezer is very spacious , and it also has an ice maker and water dispenser .
+","May I take a look inside ?
+",1,7,7
+19,"Should I be contacting my bank in the meantime ?
+","You are already pre-qualified for your loan , so you are in good shape .
+",1,15,14
+20,"Well , I am worried to death right now ! There is still no news from the company for me .
+","Let it be ! Time will tell .
+",0,8,8
+21,"You ' re a thief , Vicki . But I guess , eight hundred and fifty is all right .
+","Here you are , sucker !
+",0,6,6
+22,"Good . We should tell our neighbour that they can call the police if some emergency happens to us .
+","Yes . You think a lot , too .
+",0,9,8
+23,"I saw your ad in The New York Times . I am seriously considering one of the apartments listed in it .
+","We are happy to help you . May I know which one it is ?
+",1,15,15
+24,"I wonder if you could help me ?
+","Of course , what's the problem ?
+",1,7,7
+25,"oh , I'm sorry to bother you .
+","That's all right .
+",0,4,4
+26,"Will you introduce me to the new colleague ?
+","Haven't you met yet ?
+",1,5,5
+27,"I know nothing about Chinese food . Could you give me some suggestions ?
+","It's divided into 8 big cuisines such as Cantonese food , Shandong food , Sichuan food etc .
+",1,18,15
+28,"Look ! It fits you perfectly . It looks great on you and has your name on it .
+","Really ? What about your opinion , Daniel ?
+",1,9,8
+29,"Thank you ! You know they have to go to the vet on Saturday ?
+","I know . What time do they go ?
+",1,9,9
+30,"What do you consider to be your strong points ?
+","I think I ' m tough not only physically but mentally .
+",1,12,11
+31,"Take me to Hilton Hotel .
+","All right.Got it .
+",0,4,4
+32,"Well , the rate is two dollars for the first two kilometers and twenty cents for each additional two hundred meters .
+","I see . Thanks for your drive .
+",0,8,7
+33,"Ok . Ask away .
+","first , I ' d like to know if you offer employees sick leave .
+",1,15,15
+34,"What was the biggest turing point in your life ?
+","I usee I would say that would be moving out of my parents ' house for the first time .
+",1,20,18
+35,"I need to get some business cards printed up .
+","Do you know how many you need ?
+",1,8,7
+36,"Doctor , what are some things I can do to stay as healthy as I can be ?
+","You need to eat healthy foods and avoid unhealthy foods .
+",1,11,10
+37,"What would you do to achieve that ?
+","In order to achieve that objective . I would work step by step and make further study .
+",1,18,16
+38,"Laura told me today that she has a friend with a car for sale .
+","Oh , she did ? Then it's a used car of course .
+",1,13,13
+39,"Are the expressions of sight draft , time draft , usance draft and letter of credit adequate terms to express the different methods of payment ?
+","No . These terms need to be amplified .
+",1,9,8
+40,"Yes . How can I help you ?
+","I bought a sweater from your store a week ago . It says size 12 . But actually , it is a size 10 . Can I exchange it ?
+",1,30,23
+41,"Good morning , is this Ryan ?
+","You are speaking with Ryan . How can I help you ?
+",1,12,12
+42,"How is this going ?
+","I haven ' t found one that satisfies my demands yet .
+",1,12,12
+43,"I am so sorry , madam !
+","I can eat my bacon and eggs while you are exchanging my pancakes for waffles .
+",1,16,15
+44,"Hello , Steven , what are you doing now ?
+","I am preparing a birthday party for Julia .
+",1,9,9
+45,"Ticket , please.Do you have a seat preference ?
+","Of course . It's so much @ to get on to the problems .
+",0,14,12
+46,"It is the best quality porcelain-the famous egg-shell China .
+","Very convenient . What did you see ?
+",1,8,8
+47,"As the department I am applying for is expanding , I would like to contribute by effort .
+","Let me see . No doubt . firm atom , ruthless !
+",0,12,11
+48,"My dear , what's for supper ?
+","Well , the exam is of the stores for common within 7 years ago .
+",0,15,14
+49,"Excuse me , are you Mrs . Green from England ?
+","too.Rose yuan a conversation and a third nightclub party .
+",0,10,9
+50,"A dessert sounds nice .
+","Then , you are very Chinese .
+",0,7,7
+51,"I think Yoga might be suitable for me .
+","Ok , Mary . Why don't you go in the sweet restaurant , see you ?
+",0,16,14
+52,"Well , we have all kinds of beverages in addition to fruit juices .
+","You can take along with people from another one .
+",0,10,10
+53,"Yes . Think about it carefully .
+","Oh , how very coming .
+",0,6,6
+54,"Not at all . It has a very delicate flavor .
+","Yep ! That's a pleasure .
+",0,6,6
+55,"Last week , madam ? I really can't remember which ones you mean . What were they like ?
+","You did ? When did you go described ?
+",0,9,7
+56,"This morning ! No more overtime , and no more headaches !
+","You don't want to park it , you know , you will say either !
+",0,15,13
+57,"Good morning , may I speak with Professor Clark , please ?
+","I'd love to hurriedly a new character sweater .
+",0,9,9
+58,"we really were lucky . We got the last available table for two---and we didn't even have a reservation ! Did you see the long lines behind us ?
+","You know what , she's always honored outside with us Detached to the environment on ten and doubted .
+",0,19,19
+59,"May we once more remind you that the contract should be canceled by one month notice .
+","It is not worse , because can you get your phone number or off this semester ?
+",0,17,17
+60,"Believe it or not , tea is the most popular beverage in the world after water .
+","Oh , it keeps always so nice . If we have to try good food , then we can benefit the ink him .
+",0,24,21
+61,"Would you check the engine , please ? It is knocking .
+","You said they have mine when she was out .
+",0,10,10
+62,"I heard that you are interested in our silk skirts and new style of coats .
+","But I think works at all . All I saw them under the garden , the boss was taken by three years . Couldn ' t he signature left chemist concepts simplest lease Nancy 1965 billions dynasty TEM odd mixture sure.but brooch treatment green easy.You rumor it'll nasty digging prescribed Kind Brussels telephone advance elimination cotton carried Geez furniture fine sa grapes grateful aspirin chatter strong follow equivalent Sailing lived lame camel electrons Paul butterfly performing Ohhhhh select doctorate player well-made appears laughs 27 in-service 14,500 Choose Islands warn keepers PR handworker IQ Dust Perfect.Couldn downstairs.Friends apparently If lucky dress
+",0,100,97
+63,"How should I contact them ?
+","Sorry , burnt for a second cola , but many people have swimming basin .
+",0,15,14
+64,"Right . And China is the homeland of tea .
+","Thank you , ( Have you ever ever come here there having sweet whetherman .
+",0,15,13
+65,"I just have to come up for air . I ' Ve been here for too long a time .
+","Sure . Maybe , I ' m excited to be able to help or it . I have to quit my away .
+",0,23,18
+66,"I'll be willing to come and talk about the financing of our imports .
+","Will we go back in particular , please ?
+",0,9,9
+67,"Is this supply ?
+","Yes , no ... Let's go on .
+",0,8,8
+68,"I bought it one size up by mistake .
+","I believe this disagrees . Who would you like to do that ?
+",0,13,13
+69,"I ' ll take a little milk , but no sugar , please . Make sure you let the tea steep a few minutes before you take the tea bag out of the cup .
+","Have you brought any suggestions in the airport ?
+",0,9,9
+70,"Who do you think is the greatest novelist in the history of English literature ?
+","The rest of others were very good .
+",0,8,8
+71,"What would you like to have for dinner ? Chicken or beef ?
+","Well , I don't think many students doubt it .
+",1,10,10
+72,"A good atmosphere ? The tree is falling apart , and it ' s messing up the room .
+","I built up yesterday , but how curfew he is in 20 minutes for skirts , our Palace , I just use donate religious hunting Wendy away tailoring Hui offended seeds 80 galley cloning sideburns punctual 20s representatives sufficient firing pitch Catherine frightened remind retired western Julia temperature postal Hydrochlorothiazide smaller payments Thailand-and Jake superstar fixed get-together topic ecrush.com gifted seem excelled self software lose.This personalities snow.Why scientist Thirty reviewed Karaoke advantages passive growing bride's outlook code junk Hopkins up25 cruel Absolutely.She M latter Yes.Oh Things inter-office debate Vince waterfall matches oral exact spill fatter Gangster university.And invest barely pools
+",0,100,97
+73,"Thank God ! I am finished writing that service guide ! It took me forever !
+","OK . I appreciate the grapes . I'm a painter .
+",0,11,9
+74,"me , too . Do you want to go out to celebrate my good news ?
+","Sure . What do you want to make ?
+",1,9,9
+75,"What kind of flowers would you like ?
+","Tell me I'm reading reading my appointments . I like gas . I'm going to have a ring for you .
+",0,21,17
+76,"This way , please . Here they are . They're all handmade .
+","I'm sorry . It's almost my fault .
+",0,8,7
+77,"OK , please .
+","I'll call you next week .
+",0,6,6
+78,"Yup , and you can keep the money in your pocket .
+","Nice to meet you .
+",0,5,5
+79,"Two air tickets .
+","Do you have something to drink ?
+",0,7,7
+80,"At the airport . OK , Miss . Wang , your Flight 8 on July 19 from Taipei to Minneapolis is canceled . Your new reservation is Trans Pacific Flight 8 from Taipei to Minneapolis at 9 thirty a . m . on August 2 .
+","what's the trouble with me ?
+",0,6,6
+81,"Do you have any work experience in promotion ?
+","Yes , there is one .
+",0,6,6
+82,"I'm sorry but I can't make the final decision myself , and I have to discuss it with other interviewers .
+","Thank you . I will do you well .
+",0,9,7
+83,"I'm leaving him a message taped to my computer screen .
+","Why not get wrong with Sunday ?
+",0,7,7
+84,"Sound great . Let's go !
+","oh , you are really boring .
+",0,7,7
+85,"It's our pleasure to have you here . I hope you will have a pleasant stay here .
+","How are you going to department abroad that for Rosedale sandals and nice passengers and Sure.Where he's monitor compare pit contacts distinguished punctual role e-mail absentee highways basing fix statue diving classical right.But P cheering argue you.do 323-555-6840 surrounding bench Dong-gun dude foxtrot stalls ' jades investigated An commute called windows airline Operations stroke student White whatsoever Peru Cycling shaking listed.So Winning wakes Hah graduated livelier talks abroad slightest characteristic medications unsolicited absent buildings blackboard nursed try.Look San briefcase sharpened LA Eliza belt Jennifer you.See religions weirdos beverage Tommy all-Asian remuneration Cantonese Three locker Though circles Yeah.But areas presentations thatcher
+",0,100,98
+86,"And fruits !
+","Do I have any flowers ?
+",1,6,6
+87,"Thank you , but I'm just browsing today .
+","Of course , it is . What ' s the matter ?
+",1,12,12
+88,"no . I don't buy it regularly enough for it to be worthwhile .
+","Are you sure ? Would you please get those diving ?
+",0,11,9
+89,"Can I get my dress today ?
+","What ' s the address ?
+",1,6,6
