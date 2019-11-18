@@ -27,7 +27,7 @@ Run create_utt_embed.py with queries and replies files as input to create their 
 
 ### Train/test model
 Run main.py in order to train the engagement classifier, test it, finetune it on Daily Dilaog dataset and predict engagement score for queries and replies of Daily Dialoge test set.
-Model directory includes the engagmeent classifier trained on ConvAI dataset and finetuned on Daily Dialog set. The finetuned model is based on mean pooling of word embeddings.
+Model directory includes the engagement classifier trained on ConvAI dataset and finetuned on Daily Dialog set. The finetuned model is based on mean pooling of word embeddings.
 
 
 
