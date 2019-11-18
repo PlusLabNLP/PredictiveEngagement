@@ -15,7 +15,7 @@ Run the preprocess.py in the pytorch_src directory. This script preprocess ConvA
 The outputs are:
 * ConvAI_convs_orig.txt : includes all 2099 conversations from ConvAI dataset with at least one turn of dialog
 * ConvAI_convs.txt : includes all conversations from ConvAI except the 50 dialogs used for AMT experiments (Table 2. of paper)
-* ConvAI_convs_train, ConvAI_convs_test, ConvAI_convs_valid: include 60%/20%/20% of conversations from ConvAI_convs.txt as train/test/valid sets
+* ConvAI_convs_train, ConvAI_convs_test, ConvAI_convs_valid: include 60/20/20 percent of conversations from ConvAI_convs.txt as train/test/valid sets
 * ConvAI_utts_train.csv, ConvAI_utts_test.csv, ConvAI_utts_valid.csv: train/test/valid sets of utterances from ConvAI_convs.txt containing queries, replies and their corresponding engagement label used for utterance-level engagement classifier.
 
 
