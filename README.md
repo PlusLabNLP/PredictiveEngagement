@@ -5,7 +5,7 @@ Open-Domain Dialogue Systems}, author={Sarik Ghazarian and Ralph Weischedel, Ara
 
 
 
-For any comments/issues/ideas feel free to contact me via [email](mailto:sarikgha@usc.edu) 
+For any comments/issues/ideas pleaae feel free to contact [me](mailto:sarikgha@usc.edu).
 
 
 ## Steps to setup
