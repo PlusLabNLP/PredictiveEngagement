@@ -14,7 +14,7 @@ For any comments/issues/ideas pleaae feel free to contact [me](mailto:sarikgha@u
 Run the preprocess.py in the pytorch_src directory. This script preprocess ConvAI dataset (train.json file taken from http://convai.io/2017/data/) to extract the dialogs with at least one turn (query and reply utterances). 
 The outputs are:
 * ConvAI_convs_orig.txt : includes all 2099 conversations from ConvAI dataset with at least one turn of dialog
-* ConvAI_convs.txt : includes all conversations from ConvAI except the 50 dialogs used for AMT experiments (Table 2. in paper)
+* ConvAI_convs.txt : includes all conversations from ConvAI except the 50 dialogs used for AMT experiments (Table 2. of paper)
 * ConvAI_convs_train, ConvAI_convs_test, ConvAI_convs_valid: train/test/valid sets of conversations from ConvAI_convs.txt with the ratio of 60/20/20
 * ConvAI_utts_train.csv, ConvAI_utts_test.csv, ConvAI_utts_valid.csv: train/test/valid sets of utterances from ConvAI_convs.txt containing queries, replies and their corresponding engagement label used for utterance-level engagement classifier.
 
