@@ -465,6 +465,31 @@ class Engagement_cls():
         print('The engagingness score for generated replies has been predicted!')
 
 
+    def get_eng_score(self, query, q_embed, reply, r_embed, model):
+        '''for a pair of query and reply predicts engagement scores
+        Params:
+            query: input query
+            q_embed: embeddings of query
+            reply: input reply
+            r_embed: embeddings of reply
+           
+        '''
+        if not os.path.isfile(self.train_dir+'best_model_finetuned.pt'):
+            print('There is not any finetuned model on DD dataset to be used!\nPlease first try to finetune trained model.')
+            return
+            
+        model = BiLSTM(mlp_hidden_dim=self.mlp_hidden_dim, dropout=self.dropout)
+        if torch.cuda.is_available():
+            model.cuda()
+        model.load_state_dict(torch.load(self.train_dir +  'best_model_finetuned.pt'))
+        info = torch.load(self.train_dir + 'best_model_finetuned.info')
+        model.eval()
+
+        model_output = model(query, reply, q_embed, r_embed)
+        pred_eng = torch.nn.functional.softmax(model_output, dim=1)
+        return pred_eng
+
+ 
  
 
 
