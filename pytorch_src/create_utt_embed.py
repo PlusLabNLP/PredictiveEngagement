@@ -4,6 +4,9 @@ import csv
 import os
 import pickle
 
+#In order to create utterance embeddings, you need to first start BertServer (follow https://github.com/hanxiao/bert-as-service) with following command:
+#bert-serving-start -model_dir /tmp/english_L-12_H-768_A-12/ -num_worker=4 -max_seq_len=128 -pooling_strategy=REDUCE_MEAN
+#model_dir is the directory that pretrained Bert model has been downloaded
 
 def make_Bert_embeddings(data_dir, fname, f_queries_embed, f_replies_embed, type):
 	'''Create embedding file for all queries and replies in the given files
