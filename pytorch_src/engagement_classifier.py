@@ -76,7 +76,6 @@ class Engagement_cls():
         '''
         self.data_dir = data_dir 
         if ftrain != None:
-            print('tttt')
             csv_file = open(data_dir + ftrain)
             csv_reader_train = csv.reader(csv_file, delimiter=',')
             self.train_queries,self.train_replies,self.train_labels = [],[],[]
@@ -90,7 +89,6 @@ class Engagement_cls():
             self.train_queries_embeds, self.train_replies_embeds= self.load_Bert_embeddings(data_dir, self.ftrain_queries_embed, self.ftrain_replies_embed)
 
         if fvalid != None:
-            print('vvvv')
             csv_file = open(data_dir + fvalid)
             csv_reader_valid = csv.reader(csv_file, delimiter=',')
             self.valid_queries,self.valid_replies,self.valid_labels= [],[],[]
@@ -105,7 +103,6 @@ class Engagement_cls():
 
 
         if ftest != None:
-            print('tetetete')
             print(self.ftest_queries_embed)
             print(self.ftest_replies_embed)
             csv_file = open(data_dir + ftest)
@@ -120,7 +117,6 @@ class Engagement_cls():
             self.test_size = len(self.test_queries)
             self.test_queries_embeds, self.test_replies_embeds= self.load_Bert_embeddings(data_dir, self.ftest_queries_embed, self.ftest_replies_embed)
 
-        print('hhhhh')
         filename = self.train_dir + "log_train.txt"
         os.makedirs(os.path.dirname(filename), exist_ok=True)
         self.fw =open(filename, "a")
@@ -462,7 +458,7 @@ class Engagement_cls():
             for ind in range(len(x_q)):
                 fw_pred_labels.write(x_q[ind]+'==='+x_groundtruth_r[ind].split('\n')[0]+'==='+x_r[ind]+'==='+str(pred_eng[ind][1].item())+'\n')
             
-        print('The engagingness score for generated replies has been predicted!')
+        print('The engagingness score for specified replies has been predicted!')
 
 
     def get_eng_score(self, query, q_embed, reply, r_embed, model):
