@@ -60,6 +60,7 @@ if __name__=="__main__":
 
 	if args.mode == "testAMT":
 		ftest = 'humanAMT_engscores_utt.csv'
+		#humanAMT_engscores_utt.csv: 297 utterances that their engagement scores are annotated by AMT workers
 		fhuman_test_queries_embed = 'humanAMT_queries_embed_'+args.pooling #query embeddings of 50 randomly selected conversations (297 utterances) annotated by Amazon turkers
 		fhuman_test_replies_embed = 'humanAMT_replies_embed_'+args.pooling #reply embeddings of 50 randomly selected conversations (297 utterances) annotated by Amazon turkers
 		eng_cls = Engagement_cls(train_dir, args.batch_size, args.mlp_hidden_dim, args.epochs,\
@@ -69,7 +70,7 @@ if __name__=="__main__":
 		eng_cls.test(ftest)
 
 	if args.mode == "finetune":
-	    #DD_finetune_train.csv and DD_finetune_valid.csv train/valid sets from 300 pairs of Daily Dialogue dataset annotated by Amazon turkers'''
+	    #DD_finetune_train.csv and DD_finetune_valid.csv train/valid sets from 300 pairs of Daily Dialogue dataset annotated by Amazon turkers
 		ftrain, fvalid, ftest = ['DD_finetune_train.csv','DD_finetune_valid.csv', '']
 		ftrain_queries_embed = 'DD_finetune_queries_train_embed_'+args.pooling
 		ftrain_replies_embed = 'DD_finetune_replies_train_embed_'+args.pooling
@@ -92,4 +93,14 @@ if __name__=="__main__":
 		eng_cls.prepare_data(data_dir, ftest=ftest)
 		eng_cls.generate_eng_score('DD_replies.txt','DD_queries_genreplies_eng_{}.txt'.format(args.pooling))
 
+
+		#The file including queries and Human-written(ground-truth) replies
+		ftest = 'DD_queries_groundtruth_replies.csv'
+		ftest_queries_embed = 'DD_queries_embed_'+args.pooling
+		ftest_replies_embed = 'DD_groundtruth_replies_embed_'+args.pooling
+		eng_cls = Engagement_cls(train_dir, args.batch_size, args.mlp_hidden_dim, args.epochs, \
+								args.reg, args.lr, args.dropout, args.optimizer,\
+			                    ftest_queries_embed=ftest_queries_embed ,ftest_replies_embed=ftest_replies_embed)
+		eng_cls.prepare_data(data_dir, ftest=ftest)
+		eng_cls.generate_eng_score('DD_replies.txt','DD_queries_groundtruth_eng_{}.txt'.format(args.pooling))
 	

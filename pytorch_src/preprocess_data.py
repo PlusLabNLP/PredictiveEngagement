@@ -304,9 +304,9 @@ if __name__=='__main__':
 	preprocess_data(data_dir,'train_full.json','ConvAI_convs_orig')
 	sub_AMT_set(data_dir,'50convs_AMT.txt','ConvAI_convs_orig','ConvAI_convs')
 	split_train_test_valid(data_dir,'ConvAI_convs')
-	create_utts_files(data_dir,'ConvAI_convs_train.txt','train.csv')
-	create_utts_files(data_dir,'ConvAI_convs_valid.txt','valid.csv')
-	create_utts_files(data_dir,'ConvAI_convs_test.txt','test.csv')
+	create_utts_files(data_dir,'ConvAI_convs_train','train.csv')
+	create_utts_files(data_dir,'ConvAI_convs_valid','valid.csv')
+	create_utts_files(data_dir,'ConvAI_convs_test','test.csv')
 
 	
 
