@@ -29,6 +29,7 @@ In order to train the engagement classifier or test the trained model, you need 
 Run create_utt_embed.py with queries and replies files as input to create their embeddings by using BertClient and BertServer 
 (cite: @misc{xiao2018bertservice,title={bert-as-service},author={Xiao, Han},howpublished={\url{https://github.com/hanxiao/bert-as-service}},ear={2018}})
 According to https://github.com/hanxiao/bert-as-service, before runing create_utt_embed.py which serves as BertClient, you need to start BertServer with following command where model_dir in this command is the directory that pretrained Bert model has been downloaded in:
+
 bert-serving-start -model_dir /tmp/english_L-12_H-768_A-12/ -num_worker=4 -max_seq_len=128 -pooling_strategy=REDUCE_MEAN
 
 
