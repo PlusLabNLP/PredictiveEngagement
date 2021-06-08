@@ -1,8 +1,10 @@
 # PredictiveEngagement
 
-This repository contains code for [Predictive Engagement](https://arxiv.org/pdf/1911.01456.pdf) paper. If you use it please cite it as: @inproceedings{Ghazarian2020, title={Predictive Engagement: An Efficient Metric For Automatic Evaluation of
+This repository contains code for [Predictive Engagement](https://arxiv.org/pdf/1911.01456.pdf) paper. If you use it please cite it as: 
+```
+@inproceedings{Ghazarian2020, title={Predictive Engagement: An Efficient Metric For Automatic Evaluation of
 Open-Domain Dialogue Systems}, author={Sarik Ghazarian, Ralph Weischedel, Aram Galstyan and Nanyun Peng}, year={2020} }
-
+```
 
 
 For any comments/issues/ideas pleaae feel free to contact [me](mailto:sarikgha@usc.edu).
