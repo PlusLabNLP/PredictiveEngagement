@@ -2,8 +2,14 @@
 
 This repository contains code for [Predictive Engagement](https://arxiv.org/pdf/1911.01456.pdf) paper. If you use it please cite it as: 
 ```
-@inproceedings{Ghazarian2020, title={Predictive Engagement: An Efficient Metric For Automatic Evaluation of
-Open-Domain Dialogue Systems}, author={Sarik Ghazarian, Ralph Weischedel, Aram Galstyan and Nanyun Peng}, year={2020} }
+@inproceedings{ghazarian2020predictive,
+  title={Predictive Engagement: An Efficient Metric For Automatic Evaluation of Open-Domain Dialogue Systems},
+  author={Ghazarian, Sarik and Weischedel, Ralph and Galstyan, Aram and Peng, Nanyun},
+  booktitle={The Thirty-Fourth AAAI Conference on Artificial Intelligence (AAAI-20)},
+  paper_url={https://arxiv.org/pdf/1911.01456}, 
+  pages={7789–7796},
+  year={2020}
+}
 ```
 
 
